@@ -41,7 +41,7 @@ Process: (forward selection)
 
 Choice of predictors: It turns out after plotting multiple graphs and finding correlations amongst the features, &#39;redshift&#39;, &#39;g&#39;, and &#39;redshift&#39; vs &#39;g&#39; shows to be very good at classifying, with each class clearly having its own value range. The redshift value is based on the increase in wavelength and the g value is the green filter in the photometric system. We concluded that this is the best way to classify stellar objects. Therefore, the strongest predictors in the dataset are &#39;g&#39; and &#39;redshift&#39; as seen in the graph below.
 
-![](RackMultipart20220226-4-tjbm79_html_b2f821cf9af22f0a.png)
+![Pairplot](https://github.com/Deelane/CST383---Final/blob/main/pairplot.png?raw=true)
 
 KNN: After trying the KNN model we saw that the accuracy would go down as the number of neighbors went up, but with a number too low we were overfitting the data. We set the weight parameter to distance and for the metric parameter we used manhattan. After training the model, the accuracy came back to be 95%.
 
@@ -57,7 +57,7 @@ After the study was completed, we found the decision tree classifier was the bes
 
 Misclassifications graph:
 
-![](RackMultipart20220226-4-tjbm79_html_d0f3e9c938b9a90d.png)
+![Misclassifications](https://github.com/Deelane/CST383---Final/blob/main/misclassified_in_df_small_7.png?raw=true)
 
 Discussion:
 
